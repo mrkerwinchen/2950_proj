@@ -2,6 +2,7 @@
 
 ### Kerwin Chen
 
+[Full analysis here.](https://github.com/mrkerwinchen/2950_proj/blob/master/song_lyrics_trends.ipynb)
 Music has changed in the last 50 years, and I was interested in learning about the trends and changes in song lyrics over time, from the 1960's to 2010's. I ran multiple t-tests with an adjusted <img src="https://render.githubusercontent.com/render/math?math=\alpha"> level to control the familywise error rate and found that the difference in length of songs between decades were significant, with an increase in lyric length from the 1960's to 2000's, and a dip in the 2010's. I created a logistic regression model with terms as predictors and decades as output, and determined the characteristic terms, ie terms whos presence indicate a high probability that a song is from a certain decade, as follows:
 
 | Decade | Characteristic Terms                                                                      |
